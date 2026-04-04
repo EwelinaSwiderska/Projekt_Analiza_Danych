@@ -25,3 +25,4 @@ def main():
         calcul.wypiszKlastry()
         repeat+=1
 
+main()

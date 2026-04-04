@@ -41,8 +41,9 @@ names= {'Mary':1,'Linda':2,'Debra':3,'Lisa':4,'Michelle':5,'Jennifer':6,'Jessica
 def wczytajDane():
 # wczytuje dane ze wskazanego pliku tekstowego do listy krotkiDane
    import csv
-   with open('C:\WSTI\AEH zima 21_22\AI\dane.txt','r') as csvfile:
+   with open('TopBabyNamesbyState.txt','r') as csvfile:
       csvreader = csv.reader(csvfile)
+      next(csvreader)  # pomija nagłówek
       for krotka in csvreader:
          krotkiDane.append(krotka)
 
