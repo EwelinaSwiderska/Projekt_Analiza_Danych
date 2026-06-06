@@ -2,7 +2,7 @@
 import intro
 import calcul
 
-liczbaPowtórzeń=4
+liczbaPowtórzeń=0
 # ograniczenie liczby powtórzeń pętli
 
 def main():
